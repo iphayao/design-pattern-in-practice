@@ -4,7 +4,7 @@ Design Pattern In Practice
 List of Design Pattern:
 * Strategy Pattern **
 * Observer Pattern **
-* Decorator Pattern
+* Decorator Pattern **
 * Factory Pattern
 * Singleton Pattern
 * Command Pattern
