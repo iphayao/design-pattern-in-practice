@@ -1,4 +1,4 @@
-public class NYPizzaIngradientFactory implements PizzaIngredientFactory {
+public class ChicagoPizzaIngradientFactory implements PizzaIngredientFactory {
     public Dough createDough() {
         return new ThinCrustDough();
     }

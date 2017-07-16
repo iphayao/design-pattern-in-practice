@@ -1,3 +1,3 @@
-public class SlicedPeperoni extends Pepperoni {
+public class SlicedPepperoni extends Pepperoni {
     
 }

@@ -25,5 +25,8 @@ public abstract class Pizza {
         this.name = name;
     }
 
+    String getName() {
+        return this.name;
+    }
     
 }

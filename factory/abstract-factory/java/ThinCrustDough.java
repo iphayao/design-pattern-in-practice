@@ -1,3 +1,3 @@
-public class ThinCrustDought extends Dough {
+public class ThinCrustDough extends Dough {
     
 }
