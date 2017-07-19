@@ -12,7 +12,6 @@ public class RemoteLoader {
         LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
         LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
         LightOffCommand kitchenLighOff = new LightOffCommand(kitchenLight);
-        CeilingFanHighCommand ceilingFanHighCommand = new CeilingFanHighCommand(ceilingFan);
         CeilingFanMediumCommand ceilingFanMediumCommand = new CeilingFanMediumCommand(ceilingFan);
         CeilingFanOffCommand ceilingFanOffCommand = new CeilingFanOffCommand(ceilingFan);
         GarageDoorUpCommand garageDoorUpCommand = new GarageDoorUpCommand(garageDoor);
@@ -20,12 +19,19 @@ public class RemoteLoader {
         StereoOnWithCDCommand stereoOnWithCDCommand = new StereoOnWithCDCommand(stereo);
         StereoOffCommand stereoOffCommand = new StereoOffCommand(stereo);
 
+        Command[] partyOn = {livingRoomLightOn, stereoOnWithCDCommand};
+        Command[] partyOff = {livingRoomLightOff, stereoOffCommand};
+
+        MacroCommand partyOnMacro = new MacroCommand(partyOn);
+        MacroCommand partyOffMacro = new MacroCommand(partyOff);
+
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
         remoteControl.setCommand(1, kitchenLightOn, kitchenLighOff);
         remoteControl.setCommand(2, ceilingFanMediumCommand, ceilingFanOffCommand);
         remoteControl.setCommand(3, ceilingFanMediumCommand, ceilingFanOffCommand);
         remoteControl.setCommand(4, garageDoorUpCommand, garageDoorDownCommand);
         remoteControl.setCommand(5, stereoOnWithCDCommand, stereoOffCommand);
+        remoteControl.setCommand(6, partyOnMacro, partyOffMacro);
 
         System.out.println(remoteControl);
 
@@ -41,5 +47,9 @@ public class RemoteLoader {
         remoteControl.offButtonWasPushed(4);
         remoteControl.onButtonWasPushed(5);
         remoteControl.offButtonWasPushed(5);
+        System.out.println("--- Pushing Macro On ---");
+        remoteControl.onButtonWasPushed(6);
+        System.out.println("--- Pushing Macro Off ---");
+        remoteControl.offButtonWasPushed(6);
     }
 }
