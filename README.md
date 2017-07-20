@@ -1,5 +1,5 @@
-# design-pattern-in-practice
-Design Pattern In Practice
+# head-first-design-pattern
+The implementation of [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) book
 
 List of Design Pattern:
 * Strategy Pattern **
