@@ -8,7 +8,7 @@ List of Design Pattern:
 * Factory Pattern **
 * Singleton Pattern **
 * Command Pattern **
-* Adapter and Facade Patterns
+* Adapter and Facade Patterns *
 * Template Method Pattern
 * Iterator and Composite Patterns
 * State Pattern
