@@ -1,4 +1,4 @@
-# head-first-design-pattern
+# Head First Design Pattern
 The implementation of [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) book
 
 List of Design Pattern:
@@ -8,7 +8,7 @@ List of Design Pattern:
 * Factory Pattern **
 * Singleton Pattern **
 * Command Pattern **
-* Adapter and Facade Patterns
+* Adapter and Facade Patterns *
 * Template Method Pattern
 * Iterator and Composite Patterns
 * State Pattern
