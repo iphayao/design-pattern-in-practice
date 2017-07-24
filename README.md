@@ -1,4 +1,4 @@
-# head-first-design-pattern
+# Head First Design Pattern
 The implementation of [Head First Design Pattern](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) book
 
 List of Design Pattern:
