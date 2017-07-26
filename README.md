@@ -10,7 +10,7 @@ List of Design Pattern:
 * Command Pattern **
 * Adapter and Facade Patterns *
 * Template Method Pattern *
-* Iterator and Composite Patterns *
+* Iterator and Composite Patterns **
 * State Pattern
 * Proxy Pattern
 * Compound Pattern
