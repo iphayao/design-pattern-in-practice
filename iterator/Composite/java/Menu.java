@@ -3,12 +3,20 @@ import java.util.Iterator;
 
 public class Menu extends MenuComponent {
     ArrayList menuComponents = new ArrayList();
+    Iterator iterator = null;
     String name;
     String description;
 
     public Menu(String name, String description) {
         this.name = name;
         this.description = description;
+    }
+
+    public Iterator createIterator() {
+        if(iterator == null) {
+            iterator = new CompositeIterator(menuComponents.iterator());
+        }
+        return iterator;
     }
 
     public void add(MenuComponent menuComponent) {
