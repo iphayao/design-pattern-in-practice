@@ -1,0 +1,1 @@
+** The Composite Pattern ** allows you to compose objects into three structures to represent part-whole hierarches. Composite lets clients treat individal objects and compositions of objects uniformly.
