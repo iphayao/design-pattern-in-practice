@@ -9,8 +9,8 @@ List of Design Pattern:
 * Singleton Pattern **
 * Command Pattern **
 * Adapter and Facade Patterns *
-* Template Method Pattern
-* Iterator and Composite Patterns
+* Template Method Pattern *
+* Iterator and Composite Patterns *
 * State Pattern
 * Proxy Pattern
 * Compound Pattern
