@@ -11,7 +11,7 @@ List of Design Pattern:
 * Adapter and Facade Patterns *
 * Template Method Pattern **
 * Iterator and Composite Patterns **
-* State Pattern
+* State Pattern **
 * Proxy Pattern
 * Compound Pattern
 
