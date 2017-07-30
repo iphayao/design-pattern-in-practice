@@ -12,6 +12,4 @@ List of Design Pattern:
 * Template Method Pattern **
 * Iterator and Composite Patterns **
 * State Pattern **
-* Proxy Pattern
-* Compound Pattern
-
+* Proxy Pattern **
