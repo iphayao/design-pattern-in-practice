@@ -16,4 +16,9 @@ public class MallardDuck implements Quackable {
     public void notifyObservable() {
         observable.notifyObservable();
     }
+
+    public String toString() {
+        return "Mallard Duck";
+    }
+
 }

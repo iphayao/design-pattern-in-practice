@@ -20,7 +20,12 @@ public class Flock implements Quackable {
     }
 
     public void registerObservable(Observer observer) {
-        observable.registerObservable(observer);
+        Iterator iterator = quackers.iterator();
+        while(iterator.hasNext()) {
+            Quackable quacker = (Quackable)iterator.next();
+            quacker.registerObservable(observer);
+        }
+        //observable.registerObservable(observer);
     }
     public void notifyObservable() {
         observable.notifyObservable();

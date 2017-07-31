@@ -15,4 +15,8 @@ public class RedheadDuck implements Quackable {
     public void notifyObservable() {
         observable.notifyObservable();
     }
+
+    public String toString() {
+        return "Readhead Duck";
+    }
 }
