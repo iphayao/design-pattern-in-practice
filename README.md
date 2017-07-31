@@ -13,3 +13,4 @@ List of Design Pattern:
 * Iterator and Composite Patterns **
 * State Pattern **
 * Proxy Pattern **
+* Compound Patterns **
